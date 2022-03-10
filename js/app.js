@@ -23,3 +23,11 @@ function animateBlocks(){
     })
 }
 animateBlocks();
+
+// Menu Bar
+ $(".menu-bar").on("click", function (e) {
+   e.preventDefault();
+   $("nav").toggleClass("hide");
+   $("span", this).toggleClass("lnr-menu lnr-cross");
+   $(".main-menu").addClass("mobile-menu");
+ });
