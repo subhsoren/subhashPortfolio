@@ -31,3 +31,5 @@ animateBlocks();
    $("span", this).toggleClass("lnr-menu lnr-cross");
    $(".main-menu").addClass("mobile-menu");
  });
+
+  
